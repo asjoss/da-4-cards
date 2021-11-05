@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 980px;
+}
+
+.box {
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 300px;
+    height: 300px;
+    background-color: #84FED5;
+}
+
+.circle {
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-color:  #e07204;
+}
+
+.end-box {
+    position: relative;
+    margin-left: 640px;
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    background-color: #84FED5;
+}
+/*.invisible {
+    visibility: hidden;
+}*/
